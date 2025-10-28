@@ -94,6 +94,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>start robocopy "$(ProjectDir)$(OutDir) " "$(SolutionDir)bin\x64 - $(ConfigurationName)\$(ProjectName)" $(TargetFileName)</PostBuildEvent>
+    <PostBuildEvent>start robocopy "$(ProjectDir)$(OutDir) " "$(SolutionDir)bin\x64 - $(ConfigurationName)" $(TargetFileName)</PostBuildEvent>
   </PropertyGroup>
 </Project>
